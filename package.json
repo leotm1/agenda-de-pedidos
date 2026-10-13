@@ -1,0 +1,23 @@
+{
+  "name": "agenda-de-pedidos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lembretes de pedidos a fornecedores (Android)",
+  "scripts": {
+    "android:add": "npx cap add android",
+    "android:sync": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/app": "^6.0.2",
+    "@capacitor/app-launcher": "^6.0.3",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/local-notifications": "^6.1.1",
+    "@capacitor/preferences": "^6.0.3",
+    "@capacitor/share": "^6.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0"
+  }
+}

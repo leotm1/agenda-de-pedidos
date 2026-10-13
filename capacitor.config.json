@@ -1,0 +1,14 @@
+{
+  "appId": "br.agendapedidos.app",
+  "appName": "Agenda de Pedidos",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#F2F4F8"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_pedido",
+      "iconColor": "#2445C2"
+    }
+  }
+}
